@@ -30,7 +30,7 @@ if ($domainCount === 0) {
     return;
 }
 
-$now = new DateTime();
+$now = new DateTime(UTC);
 $expiringSoon = [];
 $errors = [];
 
